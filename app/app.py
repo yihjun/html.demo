@@ -24,13 +24,13 @@ def hello_world():
             predictions_to_str = str(predictions)
             
             if 'CUV' in predictions_to_str:
-                mybread = 'static/cuv.png'
+                mybread = 'static/CUV.png'
             elif 'Micro' in predictions_to_str:
-                mybread = 'static/micro.png'
+                mybread = 'static/Micro.png'
             elif 'Sedan' in predictions_to_str:
-                mybread = 'static/sedan.png'
+                mybread = 'static/Sedan.png'
             elif 'SUV' in predictions_to_str:
-                mybread = 'static/suv.png'
+                mybread = 'static/SUV.png'
             else:
                 mybread = 'static/none.png' 
                 
